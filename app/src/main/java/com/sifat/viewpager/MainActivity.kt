@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun getItemCount(): Int {
-            return listOf.size // Return the size of the list
+            return listOf.size 
         }
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
