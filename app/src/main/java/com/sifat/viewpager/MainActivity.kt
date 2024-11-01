@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        viewPager = binding.viewpager // Assuming you have a ViewPager2 in your Activity layout
+        viewPager = binding.viewpager
         pagerAdapter = ViewPagerAdapter()
         viewPager.adapter = pagerAdapter
     }
